@@ -1,0 +1,103 @@
+:root {
+  --rosatom-dark-blue-color: #003274;
+  --rosatom-blue-color: #025EA1;
+  --rosatom-light-blue-color: #6CACE4;
+  --rosatom-white-color: #FFFFFF;
+  --rosatom-dark-gray-color: #333333;
+  --rosatom-medium-gray-color: #5F6062;
+  --rosatom-gray-color: #7F7F7F;
+
+  --dark-blue-20-color: #ccd6e3;
+  --dark-blue-40-color: #99adc7;
+  --dark-blue-60-color: #6684ab;
+  --dark-blue-80-color: #325a8f;
+
+  --blue-20-color: #ccdeec;
+  --blue-40-color: #99bed9;
+  --blue-60-color: #679ec6;
+  --blue-80-color: #347eb3;
+
+  --light-blue-20-color: #e1eef9;
+  --light-blue-40-color: #c4ddf4;
+  --light-blue-60-color: #a6cdee;
+  --light-blue-80-color: #89bce9;
+  
+  --black-10-color: #e9e9e9;
+  --black-20-color: #d3d2d2;
+  --black-30-color: #bdbbbc;
+  --black-40-color: #a7a5a5;
+
+  --rosatom-yellow-color: #F0A600;
+  --yellow-20-color: #fcedcc;
+  --yellow-40-color: #f9db99;
+  --yellow-60-color: #f6c966;
+  --yellow-80-color: #f3b732;
+
+  --rosatom-orange-color: #EE6C23;
+  --orange-20-color: #fbe1d3;
+  --orange-40-color: #f8c4a7;
+  --orange-60-color: #f4a67b;
+  --orange-80-color: #f1894e;
+
+  --rosatom-azure-color: #259789;
+  --azure-20-color: #d3eae7;
+  --azure-40-color: #a7d5cf;
+  --azure-60-color: #7cc0b8;
+  --azure-80-color: #50aba0;
+
+  --rosatom-burgundy-color: #B22174;
+  --burgundy-20-color: #efd2e3;
+  --burgundy-40-color: #e0a6c7;
+  --burgundy-60-color: #d079ab;
+  --burgundy-80-color: #c14d8f;
+
+  --rosatom-light-green-color: #B2C541;
+  --light-green-20-color: #f0f3d9;
+  --light-green-40-color: #e0e8b3;
+  --light-green-60-color: #d1dc8d;
+  --light-green-80-color: #c1d167;
+
+  --black-10-color: #e9e8e8;
+  --black-20-color: #d3d2d2;
+  --black-30-color: #bdbbbc;
+  --black-40-color: #a7a5a5;
+
+  --white-trans-05-color: rgba(255,255,255,.05);
+  --white-trans-20-color: rgba(255,255,255,.2);
+  --white-trans-30-color: rgba(255,255,255,.3);
+  --white-trans-40-color: rgba(255,255,255,.4);
+
+  --dark-blue-trans-20-color: rgba(0,50,116,.2);
+  --dark-blue-trans-30-color: rgba(0,50,116,.3);
+  --dark-blue-trans-40-color: rgba(0,50,116,.4);
+  --dark-blue-trans-50-color: rgba(0,50,116,.5);
+
+  --blue-trans-10-color: rgba(2,94,161,.1);
+  --blue-trans-20-color: rgba(2,94,161,.2);
+  --blue-trans-30-color: rgba(2,94,161,.3);
+  --blue-trans-40-color: rgba(2,94,161,.4);
+  --blue-trans-50-color: rgba(2,94,161,.5);
+
+  --light-blue-trans-10-color: rgba(108,172,228,.1);
+  --light-blue-trans-20-color: rgba(108,172,228,.2);
+
+  --yellow-trans-20-color: rgba(240,166,0,.2);
+
+  --azure-trans-10-color: rgba(80,171,60,.1);
+  --azure-trans-20-color: rgba(80,171,60,.2);
+  --azure-trans-70-color: rgba(80,171,60,.7);
+
+  --burgundy-trans-50-color: rgba(178,33,116,.5);
+
+  --black-trans-05-color: rgba(0,0,0,.05);
+  --black-trans-10-color: rgba(0,0,0,.1);
+  --black-trans-20-color: rgba(0,0,0,.2);
+  --black-trans-30-color: rgba(0,0,0,.3);
+  --black-trans-40-color: rgba(0,0,0,.4);
+  --black-trans-70-color: rgba(0,0,0,.7);
+  
+  --text-link-on-white-color: var(--rosatom-blue-color, #025EA1);
+  --text-link-on-white-hover-color: var(--blue-60-color, #679ec6);
+  --text-link-on-dark-color: var(--rosatom-light-blue-color, #6CACE4);
+  --text-link-on-dark-hover-color: var(--light-blue-60-color, #a6cdee);
+}

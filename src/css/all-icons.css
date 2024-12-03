@@ -1,0 +1,1787 @@
+ .si {
+  display: inline-block;
+  font-family: 'smpiconsdemo';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: var(--button-text-color);
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ }
+ .si-space:before {
+   content: "\20";
+ }
+ .si-shipwheel-01:before {
+   content: "\f001";
+ }
+   .si-weather-01:before {
+   content: "\f002";
+ }
+ .si-lighthouse-01:before {
+   content: "\f003";
+ }
+ .si-lifebuoy:before {
+   content: "\f004";
+ }
+ .si-cargo-01:before {
+   content: "\f005";
+ }
+ .si-repair-01:before {
+   content: "\f006";
+ }
+ .si-diagram-01:before {
+   content: "\f007";
+ }
+ .si-leaf:before {
+   content: "\f008";
+ }
+ .si-handshake:before {
+   content: "\f009";
+ }
+ .si-home-fill:before {
+   content: "\f00a";
+ }
+ .si-home-portal-fill:before {
+   content: "\f00b";
+ }
+ .si-user-fill:before {
+   content: "\f00c";
+ }
+ .si-hamburger-fill:before {
+   content: "\f00e";
+ }
+ .si-bell:before {
+   content: "\f00f";
+ }
+ .si-pin:before {
+   content: "\f010";
+ }
+ .si-help:before {
+   content: "\f011";
+ }
+ .si-plus:before {
+   content: "\f012";
+ }
+ .si-document-copy:before {
+   content: "\f013";
+ }
+ .si-ok-sign:before {
+   content: "\f014";
+ }
+ .si-recognition:before {
+   content: "\f015";
+ }
+ .si-filter:before {
+   content: "\f016";
+ }
+ .si-filter-off:before {
+   content: "\f017";
+ }
+ .si-open-down:before {
+   content: "\f018";
+ }
+ .si-gear-01:before {
+   content: "\f019";
+ }
+ .si-crane-04:before {
+   content: "\f01a";
+ }
+ .si-registry:before {
+   content: "\f01b";
+ }
+ .si-suppliers:before {
+   content: "\f01c";
+ }
+ .si-doc-pen:before {
+   content: "\f01d";
+ }
+ .si-diagram-02:before {
+   content: "\f01e";
+ }
+ .si-dialogue:before {
+   content: "\f01f";
+ }
+ .si-barrel:before {
+   content: "\f020";
+ }
+ .si-water-drop:before {
+   content: "\f021";
+ }
+ .si-food:before {
+   content: "\f022";
+ }
+ .si-repair-02:before {
+   content: "\f023";
+ }
+ .si-sleep:before {
+   content: "\f024";
+ }
+ .si-capitane-01:before {
+   content: "\f025";
+ }
+ .si-close-window:before {
+   content: "\f026";
+ }
+ .si-screw:before {
+   content: "\f027";
+ }
+ .si-filter-save:before {
+   content: "\f028";
+ }
+ .si-filter-param:before {
+   content: "\f029";
+ }
+ .si-save:before {
+   content: "\f02a";
+ }
+ .si-column-set:before {
+   content: "\f02b";
+ }
+ .si-lighthouse-02:before {
+   content: "\f02c";
+ }
+ .si-clip:before {
+   content: "\f02d";
+ }
+ .si-barrel-food:before {
+   content: "\f02e";
+ }
+ .si-weather-04:before {
+   content: "\f02f";
+ }
+ .si-meat:before {
+   content: "\f030";
+ }
+ .si-user-param-fill:before {
+   content: "\f031";
+ }
+ .si-globe-fill:before {
+   content: "\f032";
+ }
+ .si-ok-fill:before {
+   content: "\f033";
+ }
+ .si-cancel-fill:before {
+   content: "\f034";
+ }
+ .si-interface-param:before {
+   content: "\f035";
+ }
+ .si-save-fill:before {
+   content: "\f036";
+ }
+ .si-window:before {
+   content: "\f037";
+ }
+ .si-messages-param:before {
+   content: "\f038";
+ }
+ .si-header-compact:before {
+   content: "\f039";
+ }
+ .si-header-full:before {
+   content: "\f03a";
+ }
+ .si-sort-set:before {
+   content: "\f03b";
+ }
+ .si-trash:before {
+   content: "\f03c";
+ }
+ .si-capitane-02:before {
+   content: "\f03d";
+ }
+ .si-layers:before {
+   content: "\f03e";
+ }
+ .si-layers-edit:before {
+   content: "\f03f";
+ }
+ .si-layers-set:before {
+   content: "\f040";
+ }
+ .si-operational-environment:before {
+   content: "\f041";
+ }
+ .si-map:before {
+   content: "\f042";
+ }
+ .si-map-layer:before {
+   content: "\f043";
+ }
+ .si-weather-02:before {
+   content: "\f044";
+ }
+ .si-iceberg:before {
+   content: "\f045";
+ }
+ .si-satellite:before {
+   content: "\f046";
+ }
+ .si-group-dispatch:before {
+   content: "\f047";
+ }
+ .si-group-task:before {
+   content: "\f048";
+ }
+ .si-group-marine-support:before {
+   content: "\f049";
+ }
+ .si-private-area:before {
+   content: "\f04a";
+ }
+ .si-bear:before {
+   content: "\f04b";
+ }
+ .si-cargo-crane:before {
+   content: "\f04c";
+ }
+ .si-grid:before {
+   content: "\f04d";
+ }
+ .si-grid-set:before {
+   content: "\f04e";
+ }
+ .si-knot:before {
+   content: "\f04f";
+ }
+ .si-map-pin:before {
+   content: "\f050";
+ }
+ .si-polar-projection:before {
+   content: "\f051";
+ }
+ .si-rule:before {
+   content: "\f052";
+ }
+ .si-yacht:before {
+   content: "\f053";
+ }
+ .si-bear-cap:before {
+   content: "\f054";
+ }
+ .si-radar:before {
+   content: "\f055";
+ }
+ .si-flag:before {
+   content: "\f056";
+ }
+ .si-anchor-01:before {
+   content: "\f057";
+ }
+ .si-binocular:before {
+   content: "\f058";
+ }
+ .si-calculator:before {
+   content: "\f059";
+ }
+ .si-camera-shot:before {
+   content: "\f05a";
+ }
+ .si-lamp:before {
+   content: "\f05b";
+ }
+ .si-docs-info:before {
+   content: "\f05c";
+ }
+ .si-knot-02:before {
+   content: "\f05d";
+ }
+ .si-mail:before {
+   content: "\f05e";
+ }
+ .si-sea:before {
+   content: "\f05f";
+ }
+ .si-ship-01:before {
+   content: "\f060";
+ }
+ .si-ship-02:before {
+   content: "\f061";
+ }
+ .si-ship-container:before {
+   content: "\f062";
+ }
+ .si-waves:before {
+   content: "\f063";
+ }
+ .si-temperature:before {
+   content: "\f064";
+ }
+ .si-dolphin:before {
+   content: "\f065";
+ }
+ 
+ .si-day:before {
+   content: "\f066";
+ }
+ .si-night:before {
+   content: "\f067";
+ }
+ .si-prip:before {
+   content: "\f068";
+ }
+ .si-rule-dbk:before {
+   content: "\f069";
+ }
+ .si-weather-in-point:before {
+   content: "\f06a";
+ }
+ .si-plus-fill:before {
+   content: "\f06b";
+ }
+ .si-trash-fill:before {
+   content: "\f06c";
+ }
+ 
+ .si-contract:before {
+   content: "\f06d";
+ }
+ .si-disp:before {
+   content: "\f06e";
+ }
+ .si-disp-photo-only:before {
+   content: "\f06f";
+ }
+ .si-disp-w-photo:before {
+   content: "\f070";
+ }
+ .si-docs:before {
+   content: "\f071";
+ }
+ .si-docs-in-box:before {
+   content: "\f072";
+ }
+ .si-document-ok:before {
+   content: "\f073";
+ }
+ .si-document-rejection:before {
+   content: "\f074";
+ }
+ .si-document-share-01:before {
+   content: "\f075";
+ }
+ .si-document-upload:before {
+   content: "\f076";
+ }
+ .si-geo-tiff:before {
+   content: "\f077";
+ }
+ .si-full-screen:before {
+   content: "\f078";
+ }
+ .si-full-screen-off:before {
+   content: "\f079";
+ }
+ .si-full-screen-photo:before {
+   content: "\f07a";
+ }
+ .si-full-screen-fill:before {
+   content: "\f07b";
+ }
+ .si-full-screen-off-fill:before {
+   content: "\f07c";
+ }
+ .si-port-history:before {
+   content: "\f07d";
+ }
+ .si-port-weather:before {
+   content: "\f07e";
+ }
+ .si-zoom-to-port:before {
+   content: "\f07f";
+ }
+ 
+ .si-zoom-to-ship:before {
+   content: "\f080";
+ }
+ .si-ship-history:before {
+   content: "\f081";
+ }
+ .si-ship-info:before {
+   content: "\f082";
+ }
+ .si-ship-photos:before {
+   content: "\f083";
+ }
+ .si-shipping-intensity:before {
+   content: "\f084";
+ }
+ .si-ship-track:before {
+   content: "\f085";
+ }
+ .si-timeline:before {
+   content: "\f086";
+ }
+ .si-track-marker-spacing:before {
+   content: "\f087";
+ }
+ .si-minus:before {
+   content: "\f088";
+ }
+ .si-minus-fill:before {
+   content: "\f089";
+ }
+ .si-save-desktop:before {
+   content: "\f08a";
+ }
+ .si-load-desktop:before {
+   content: "\f08b";
+ }
+ .si-document-share-02:before {
+   content: "\f08c";
+ }
+ .si-download:before {
+   content: "\f08d";
+ }
+ .si-upload:before {
+   content: "\f08e";
+ }
+ .si-edit-01:before {
+   content: "\f08f";
+ }
+ .si-edit-02:before {
+   content: "\f090";
+ }
+ .si-printer:before {
+   content: "\f091";
+ }
+ 
+ .si-showcase:before {
+   content: "\f092";
+ }
+ .si-ship-shedule:before {
+   content: "\f093";
+ }
+ .si-route-123:before {
+   content: "\f094";
+ }
+ .si-dashboards:before {
+   content: "\f095";
+ }
+ .si-kpi:before {
+   content: "\f096";
+ }
+ .si-kpi-list:before {
+   content: "\f097";
+ }
+ .si-port-build:before {
+   content: "\f098";
+ }
+ .si-subscribe:before {
+   content: "\f099";
+ }
+ .si-subscribe-time:before {
+   content: "\f09a";
+ }
+ .si-subscribe-ok:before {
+   content: "\f09b";
+ }
+ .si-subscribe-cancel:before {
+   content: "\f09c";
+ }
+ .si-subscribe-warning:before {
+   content: "\f09d";
+ }
+ .si-basket:before {
+   content: "\f09e";
+ }
+ .si-basket-add:before {
+   content: "\f09f";
+ }
+ .si-selected:before {
+   content: "\f0a0";
+ }
+ .si-selected-fill:before {
+   content: "\f0a1";
+ }
+ .si-checkout:before {
+   content: "\f0a2";
+ }
+ .si-search:before {
+   content: "\f0a3";
+ }
+ .si-card:before {
+   content: "\f0a4";
+ }
+ .si-handshake-02:before {
+   content: "\f0a5";
+ }
+ .si-doc:before {
+   content: "\f0a6";
+ }
+ .si-doc-edit:before {
+   content: "\f0a7";
+ }
+ .si-doc-view:before {
+   content: "\f0a8";
+ }
+ .si-save-excel:before {
+   content: "\f0a9";
+ }
+ .si-save-word:before {
+   content: "\f0aa";
+ }
+ .si-save-pdf:before {
+   content: "\f0ab";
+ }
+ .si-logout-fill:before {
+   content: "\f0ac";
+ }
+ .si-status-ok:before {
+   content: "\f0ad";
+ }
+ .si-status-rejected:before {
+   content: "\f0ae";
+ }
+ .si-status-draft:before {
+   content: "\f0af";
+ }
+ .si-status-pending:before {
+   content: "\f0b0";
+ }
+ .si-status-pay:before {
+   content: "\f0b1";
+ }
+ .si-diamond:before {
+   content: "\f0b2";
+ }
+ .si-time-control:before {
+   content: "\f0b3";
+ }
+ .si-crane-01:before {
+   content: "\f0b4";
+ }
+ .si-crane-02:before {
+   content: "\f0b5";
+ }
+ .si-crane-03:before {
+   content: "\f0b6";
+ }
+ .si-hotel:before {
+   content: "\f0b7";
+ }
+ .si-ship-03:before {
+   content: "\f0b8";
+ }
+ .si-shipyard:before {
+   content: "\f0b9";
+ }
+ .si-tugboat:before {
+   content: "\f0ba";
+ }
+ .si-login-fill:before {
+   content: "\f0bb";
+ }
+ .si-view-yes:before {
+   content: "\f0bc";
+ }
+ .si-view-no:before {
+   content: "\f0bd";
+ }
+ .si-list:before {
+   content: "\f0be";
+ }
+ .si-diagram-gant:before {
+   content: "\f0bf";
+ }
+ .si-bank-card:before {
+   content: "\f0c0";
+ }
+ .si-left:before {
+   content: "\f0c1";
+ }
+ .si-left-left:before {
+   content: "\f0c2";
+ }
+ .si-left-start:before {
+   content: "\f0c3";
+ }
+ .si-right:before {
+   content: "\f0c4";
+ }
+ .si-right-right:before {
+   content: "\f0c5";
+ }
+ .si-right-end:before {
+   content: "\f0c6";
+ }
+ .si-user-registration-fill:before {
+   content: "\f0c7";
+ }
+ .si-liquidation:before {
+   content: "\f0c8";
+ }
+ .si-lock:before {
+   content: "\f0c9";
+ }
+ .si-pisa-tower:before {
+   content: "\f0ca";
+ }
+ .si-repair-03:before {
+   content: "\f0cb";
+ }
+ .si-worker-flag:before {
+   content: "\f0cc";
+ }
+ .si-worker-hand:before {
+   content: "\f0cd";
+ }
+ .si-help-circle:before {
+   content: "\f0ce";
+ }
+ .si-required:before {
+   content: "\f0cf";
+ }
+ .si-edge-ice-water:before {
+   content: "\f0d0";
+ }
+ .si-ice-drift:before {
+   content: "\f0d1";
+ }
+ .si-ice-age:before {
+   content: "\f0d2";
+ }
+ .si-icebergs:before {
+   content: "\f0d3";
+ }
+ .si-stamukha:before {
+   content: "\f0d4";
+ }
+ .si-level-up:before {
+   content: "\f0d5";
+ }
+ .si-back:before {
+   content: "\f0d6";
+ }
+ .si-forward:before {
+   content: "\f0d7";
+ }
+ .si-mosaic-01:before {
+   content: "\f0d8";
+ }
+ .si-mosaic-02:before {
+   content: "\f0d9";
+ }
+ .si-dropdown-list:before {
+   content: "\f0da";
+ }
+ .si-group-add:before {
+   content: "\f0db";
+ }
+ .si-group-remove:before {
+   content: "\f0dc";
+ }
+ .si-cooperation:before {
+   content: "\f0dd";
+ }
+ .si-folders:before {
+   content: "\f0de";
+ }
+ .si-history:before {
+   content: "\f0df";
+ }
+ .si-icebreaker:before {
+   content: "\f0e0";
+ }
+ .si-icebreaker-plan:before {
+   content: "\f0e1";
+ }
+ .si-icebreaker-shedule:before {
+   content: "\f0e2";
+ }
+ .si-pause:before {
+   content: "\f0e3";
+ }
+ .si-play:before {
+   content: "\f0e4";
+ }
+ .si-port-shedule:before {
+   content: "\f0e5";
+ }
+ .si-send-message:before {
+   content: "\f0e6";
+ }
+ .si-shipping-plan:before {
+   content: "\f0e7";
+ }
+ .si-web-camera:before {
+   content: "\f0e8";
+ }
+ .si-aerial-photo:before {
+   content: "\f0e9";
+ }
+ .si-audio-conf:before {
+   content: "\f0ea";
+ }
+ .si-bik:before {
+   content: "\f0eb";
+ }
+ .si-danger-01:before {
+   content: "\f0ec";
+ }
+ .si-danger-01-fill:before {
+   content: "\f0ed";
+ }
+ .si-danger-02:before {
+   content: "\f0ee";
+ }
+ .si-danger-02-fill:before {
+   content: "\f0ef";
+ }
+ .si-danger-zone:before {
+   content: "\f0f0";
+ }
+ .si-multi-user:before {
+   content: "\f0f1";
+ }
+ .si-phone-01:before {
+   content: "\f0f2";
+ }
+ .si-phone-02:before {
+   content: "\f0f3";
+ }
+ .si-phone-03:before {
+   content: "\f0f4";
+ }
+ .si-pointer:before {
+   content: "\f0f5";
+ }
+ .si-pointer-place:before {
+   content: "\f0f6";
+ }
+ .si-pointer-zone:before {
+   content: "\f0f7";
+ }
+ .si-presentation:before {
+   content: "\f0f8";
+ }
+ .si-danger-list:before {
+   content: "\f0f9";
+ }
+ .si-flags-zone:before {
+   content: "\f0fa";
+ }
+ .si-ices-zone:before {
+   content: "\f0fb";
+ }
+ .si-meteo-zone:before {
+   content: "\f0fc";
+ }
+ .si-search-user:before {
+   content: "\f0fd";
+ }
+ .si-address-book:before {
+   content: "\f0fe";
+ }
+ .si-flot:before {
+   content: "\f0ff";
+ }
+ .si-user-card:before {
+   content: "\f100";
+ }
+ .si-users-tree:before {
+   content: "\f101";
+ }
+ .si-incoming-request:before {
+   content: "\f102";
+ }
+ .si-map-plan:before {
+   content: "\f103";
+ }
+ .si-users-param:before {
+   content: "\f104";
+ }
+ .si-info:before {
+   content: "\f105";
+ }
+ .si-ok:before {
+   content: "\f106";
+ }
+ .si-cancel:before {
+   content: "\f107";
+ }
+ .si-zoom-in:before {
+   content: "\f108";
+ }
+ .si-zoom-out:before {
+   content: "\f109";
+ }
+ .si-zoom-to-object:before {
+   content: "\f10a";
+ }
+ .si-zoom-to-objects:before {
+   content: "\f10b";
+ }
+ .si-zoom-to-region:before {
+   content: "\f10c";
+ }
+ .si-zoom-to-route:before {
+   content: "\f10d";
+ }
+ .si-gear-rack-ok:before {
+   content: "\f10e";
+ }
+ .si-gear-rack-broken:before {
+   content: "\f10f";
+ }
+ .si-lamp-question:before {
+   content: "\f110";
+ }
+ .si-reconstruction:before {
+   content: "\f111";
+ }
+ .si-user:before {
+   content: "\f112";
+ }
+ .si-calendar:before {
+   content: "\f113";
+ }
+ .si-calendar-fill:before {
+   content: "\f114";
+ }
+ .si-sort-descending:before {
+   content: "\f115";
+ }
+ .si-sort-ascending:before {
+   content: "\f116";
+ }
+ .si-hamburger-short-fill:before {
+   content: "\f117";
+ }
+ .si-multi-user-fill:before {
+   content: "\f118";
+ }
+ .si-clear-input:before {
+   content: "\f119";
+ }
+ .si-draw-hand:before {
+   content: "\f11A";
+ }
+ .si-draw-digital:before {
+   content: "\f11B";
+ }
+ .si-draw-auto:before {
+   content: "\f11C";
+ }
+ .si-permission:before {
+   content: "\f11D";
+ }
+ .si-show:before {
+   content: "\f11E";
+ }
+ .si-hide:before {
+   content: "\f11F";
+ }
+ .si-show-fill:before {
+   content: "\f120";
+ }
+ .si-hide-fill:before {
+   content: "\f121";
+ }
+ .si-route-show:before {
+   content: "\f122";
+ }
+ .si-route-hide:before {
+   content: "\f123";
+ }
+ .si-arrival-time:before {
+   content: "\f124";
+ }
+ .si-fire-zone:before {
+   content: "\f125";
+ }
+ .si-geometry-edit:before {
+   content: "\f126";
+ }
+ .si-integration-01:before {
+   content: "\f127";
+ }
+ .si-integration-02:before {
+   content: "\f128";
+ }
+ .si-integration-03:before {
+   content: "\f129";
+ }
+ .si-integration-04:before {
+   content: "\f12a";
+ }
+ .si-integration-05:before {
+   content: "\f12b";
+ }
+ .si-integration-06:before {
+   content: "\f12c";
+ }
+ .si-radio-tower:before {
+   content: "\f12d";
+ }
+ .si-route-01:before {
+   content: "\f12e";
+ }
+ .si-route-02:before {
+   content: "\f12f";
+ }
+ .si-route-cross:before {
+   content: "\f130";
+ }
+ .si-route-danger:before {
+   content: "\f131";
+ }
+ .si-route-flame:before {
+   content: "\f132";
+ }
+ .si-route-iceberg:before {
+   content: "\f133";
+ }
+ .si-route-settings:before {
+   content: "\f134";
+ }
+ .si-route-vars:before {
+   content: "\f135";
+ }
+ .si-satellite-dish-01:before {
+   content: "\f136";
+ }
+ .si-satellite-dish-02:before {
+   content: "\f137";
+ }
+ .si-ship-on-ice:before {
+   content: "\f138";
+ }
+ .si-store-receipt:before {
+   content: "\f139";
+ }
+ .si-weather-and-ice:before {
+   content: "\f13a";
+ }
+ .si-weather-map:before {
+   content: "\f13b";
+ }
+ .si-data-01:before {
+   content: "\f13c";
+ }
+ .si-data-02:before {
+   content: "\f13d";
+ }
+ .si-data-03:before {
+   content: "\f13e";
+ }
+ .si-support:before {
+   content: "\f13f";
+ }
+ .si-data-handling:before {
+   content: "\f140";
+ }
+ .si-digital-docs:before {
+   content: "\f141";
+ }
+ .si-polar-owl:before {
+   content: "\f142";
+ }
+ .si-seagull:before {
+   content: "\f143";
+ }
+ .si-walrus:before {
+   content: "\f144";
+ }
+ .si-kpi-tuning:before {
+   content: "\f145";
+ }
+ .si-dashboard-tuning:before {
+   content: "\f146";
+ }
+ .si-analysis-01:before {
+   content: "\f147";
+ }
+ .si-analysis-02:before {
+   content: "\f148";
+ }
+ .si-analysis-03:before {
+   content: "\f149";
+ }
+ .si-data-exchange-01:before {
+   content: "\f14a";
+ }
+ .si-data-exchange-02:before {
+   content: "\f14b";
+ }
+ .si-forecast:before {
+   content: "\f14c";
+ }
+ .si-map-dashboard:before {
+   content: "\f14d";
+ }
+ .si-tree-node-close:before {
+   content: "\f14e";
+ }
+ .si-tree-node-open:before {
+   content: "\f14f";
+ }
+ .si-airplain:before {
+   content: "\f150";
+ }
+ .si-airport:before {
+   content: "\f151";
+ }
+ .si-medicine:before {
+   content: "\f152";
+ }
+ .si-rescue:before {
+   content: "\f153";
+ }
+ .si-palette:before {
+   content: "\f154";
+ }
+ .si-ship-3d:before {
+   content: "\f155";
+ }
+ .si-ship-3d-upload:before {
+   content: "\f156";
+ }
+ .si-ship-3d-view:before {
+   content: "\f157";
+ }
+ .si-build-3d:before {
+   content: "\f158";
+ }
+ .si-build-3d-upload:before {
+   content: "\f159";
+ }
+ .si-build-3d-view:before {
+   content: "\f15a";
+ }
+ .si-lighthouse-zone:before {
+   content: "\f15b";
+ }
+ .si-rescue-zone:before {
+   content: "\f15c";
+ }
+ .si-route-correct:before {
+   content: "\f15d";
+ }
+ .si-route-history:before {
+   content: "\f15e";
+ }
+ .si-weather-on-route:before {
+   content: "\f15f";
+ }
+ .si-border-guard:before {
+   content: "\f160";
+ }
+ .si-mchs:before {
+   content: "\f161";
+ }
+ .si-lifebuoy-02:before {
+   content: "\f162";
+ }
+ .si-meeting-time:before {
+   content: "\f163";
+ }
+ .si-layers-add:before {
+   content: "\f164";
+ }
+ .si-object-info:before {
+   content: "\f165";
+ }
+ .si-route-deviation:before {
+   content: "\f166";
+ }
+ .si-draw-object:before {
+   content: "\f167";
+ }
+ .si-draw-by-point:before {
+   content: "\f168";
+ }
+ .si-draw-by-line:before {
+   content: "\f169";
+ }
+ .si-draw-by-polygon:before {
+   content: "\f16a";
+ }
+ .si-draw-by-rectangle:before {
+   content: "\f16b";
+ }
+ .si-polygon-info:before {
+   content: "\f16c";
+ }
+ .si-hand:before {
+   content: "\f16d";
+ }
+ .si-link:before {
+   content: "\f16e";
+ }
+ .si-unlink:before {
+   content: "\f16f";
+ }
+ .si-arrow:before {
+   content: "\f170";
+ }
+ .si-arrow-info:before {
+   content: "\f171";
+ }
+ .si-control-layer-toggle:before {
+   content: "\f172";
+ }
+ .si-ecology-zone:before {
+   content: "\f173";
+ }
+ .si-film:before {
+   content: "\f174";
+ }
+ .si-histogram-01:before {
+   content: "\f175";
+ }
+ .si-load-excel:before {
+   content: "\f176";
+ }
+ .si-object-add:before {
+   content: "\f177";
+ }
+ .si-object-edit:before {
+   content: "\f178";
+ }
+ .si-object-move:before {
+   content: "\f179";
+ }
+ .si-object-remove:before {
+   content: "\f17a";
+ }
+ .si-offending-ship:before {
+   content: "\f17b";
+ }
+ .si-permissible-routes:before {
+   content: "\f17c";
+ }
+ .si-pointer-end:before {
+   content: "\f17d";
+ }
+ .si-pointer-start:before {
+   content: "\f17e";
+ }
+ .si-polygon-oil:before {
+   content: "\f17f";
+ }
+ .si-route-split:before {
+   content: "\f180";
+ }
+ .si-search-coordinate:before {
+   content: "\f181";
+ }
+ .si-ships-group:before {
+   content: "\f182";
+ }
+ .si-shipwalking:before {
+   content: "\f183";
+ }
+ .si-show-layer-legend:before {
+   content: "\f184";
+ }
+ .si-show-map-legend:before {
+   content: "\f185";
+ }
+ .si-cargo-02:before {
+   content: "\f186";
+ }
+ .si-cargo-add:before {
+   content: "\f187";
+ }
+ .si-cargoes-list:before {
+   content: "\f188";
+ }
+ .si-cargo-service:before {
+   content: "\f189";
+ }
+ .si-cargo-info:before {
+   content: "\f18a";
+ }
+ .si-cargo-up:before {
+   content: "\f18b";
+ }
+ .si-cargo-down:before {
+   content: "\f18c";
+ }
+ .si-cargo-description:before {
+   content: "\f18d";
+ }
+ .si-bear-02:before {
+   content: "\f18e";
+ }
+ .si-iceberg-02:before {
+   content: "\f18f";
+ }
+ .si-broken-ice:before {
+   content: "\f190";
+ }
+ .si-ice-compression:before {
+   content: "\f191";
+ }
+ .si-password-reset:before {
+   content: "\f192";
+ }
+ .si-draw-by-circle:before {
+   content: "\f193";
+ }
+ .si-port-info:before {
+   content: "\f194";
+ }
+ .si-target-01:before {
+   content: "\f195";
+ }
+ .si-target-02:before {
+   content: "\f196";
+ }
+ .si-status-info:before {
+   content: "\f197";
+ }
+ .si-statuses-4:before {
+   content: "\f198";
+ }
+ .si-status-change:before {
+   content: "\f199";
+ }
+ .si-status-edit-ok:before {
+   content: "\f19a";
+ }
+ .si-status-edit:before {
+   content: "\f19b";
+ }
+ .si-arrow-up-fill:before {
+   content: "\f19c";
+ }
+ .si-filter-view:before {
+   content: "\f19d";
+ }
+ .si-login:before {
+   content: "\f19e";
+ }
+ .si-logout:before {
+   content: "\f19f";
+ }
+ .si-top-bar:before {
+   content: "\f1a0";
+ }
+ .si-status-line:before {
+   content: "\f1a1";
+ }
+ .si-play-stop:before {
+   content: "\f1a2";
+ }
+ .si-gear-02:before {
+   content: "\f1a3";
+ }
+ .si-gear-03:before {
+   content: "\f1a4";
+ }
+ .si-data-reset:before {
+   content: "\f1a5";
+ }
+ .si-data-refresh:before {
+   content: "\f1a6";
+ }
+ .si-pointer-refresh:before {
+   content: "\f1a7";
+ }
+ .si-pointer-reload:before {
+   content: "\f1a8";
+ }
+ .si-weather-wind:before {
+   content: "\f1a9";
+ }
+ .si-weather-fog:before {
+   content: "\f1aa";
+ }
+ .si-weather-blizzard:before {
+   content: "\f1ab";
+ }
+ .si-close-up:before {
+   content: "\f1ac";
+ }
+ .si-document-download:before {
+   content: "\f1ad";
+ }
+ .si-edit-03:before {
+   content: "\f1ae";
+ }
+ .si-edit-04:before {
+   content: "\f1af";
+ }
+ .si-attention:before {
+   content: "\f1b0";
+ }
+ .si-pointer-attention:before {
+   content: "\f1b1";
+ }
+ .si-pointer-danger:before {
+   content: "\f1b2";
+ }
+ .si-mail-question:before {
+   content: "\f1b3";
+ }
+ .si-tabs:before {
+   content: "\f1b4";
+ }
+ .si-change-signer:before {
+   content: "\f1b5";
+ }
+ .si-document-scan:before {
+   content: "\f1b6";
+ }
+ .si-contract-closed:before {
+   content: "\f1b7";
+ }
+ .si-contract-denied:before {
+   content: "\f1b8";
+ }
+ .si-contract-new:before {
+   content: "\f1b9";
+ }
+ .si-contract-paid:before {
+   content: "\f1ba";
+ }
+ .si-contract-signed-01:before {
+   content: "\f1bb";
+ }
+ .si-contract-signed-02:before {
+   content: "\f1bc";
+ }
+ .si-archive:before {
+   content: "\f1bd";
+ }
+ .si-contract-ok:before {
+   content: "\f1be";
+ }
+ .si-order:before {
+   content: "\f1bf";
+ }
+ .si-order-denied:before {
+   content: "\f1c0";
+ }
+ .si-order-in-progress:before {
+   content: "\f1c1";
+ }
+ .si-order-new:before {
+   content: "\f1c2";
+ }
+ .si-order-ok:before {
+   content: "\f1c3";
+ }
+ .si-order-paid:before {
+   content: "\f1c4";
+ }
+ .si-order-placed:before {
+   content: "\f1c5";
+ }
+ .si-act-signed:before {
+   content: "\f1c6";
+ }
+ .si-faktura:before {
+   content: "\f1c7";
+ }
+ .si-faktura-signed:before {
+   content: "\f1c8";
+ }
+ .si-invoice:before {
+   content: "\f1c9";
+ }
+ .si-invoice-paid:before {
+   content: "\f1ca";
+ }
+ .si-payment-delayed:before {
+   content: "\f1cb";
+ }
+ .si-tree-expand:before {
+   content: "\f1cc";
+ }
+ .si-tree-collapse:before {
+   content: "\f1cd";
+ }
+ .si-chat-fill:before {
+   content: "\f1ce";
+ }
+ .si-chat-01:before {
+   content: "\f1cf";
+ }
+ .si-chat-21:before {
+   content: "\f1d0";
+ }
+ .si-chat-22:before {
+   content: "\f1d1";
+ }
+ .si-chat-settings:before {
+   content: "\f1d2";
+ }
+ .si-company:before {
+   content: "\f1d3";
+ }
+ .si-user-company:before {
+   content: "\f1d4";
+ }
+ .si-cargo-service-add:before {
+   content: "\f1d5";
+ }
+ .si-cargo-service-list:before {
+   content: "\f1d6";
+ }
+ .si-my-cargoes:before {
+   content: "\f1d7";
+ }
+ .si-situational-center:before {
+   content: "\f1d8";
+ }
+ .si-navigation-monitoring:before {
+   content: "\f1d9";
+ }
+ .si-ship-calls:before {
+   content: "\f1da";
+ }
+ .si-cara-gate:before {
+   content: "\f1db";
+ }
+ .si-cara-gate-ok:before {
+   content: "\f1dc";
+ }
+ .si-cara-gate-denied:before {
+   content: "\f1dd";
+ }
+ .si-cara-gate-learning:before {
+   content: "\f1de";
+ }
+ .si-navigation-monitoring-learning:before {
+   content: "\f1df";
+ }
+ .si-navigation-monitoring-workplace:before {
+   content: "\f1e0";
+ }
+ .si-target-ship:before {
+   content: "\f1e1";
+ }
+ .si-target-ship-permission:before {
+   content: "\f1e2";
+ }
+ .si-port-service-list:before {
+   content: "\f1e3";
+ }
+ .si-registry-port-facilities:before {
+   content: "\f1e4";
+ }
+ .si-icebreaking-calculator:before {
+   content: "\f1e5";
+ }
+ .si-icebreaking-dashboard-speed:before {
+   content: "\f1e6";
+ }
+ .si-icebreaking-dashboard-time:before {
+   content: "\f1e7";
+ }
+ .si-icebreaking-learning:before {
+   content: "\f1e8";
+ }
+ .si-icebreaking-planned-route:before {
+   content: "\f1e9";
+ }
+ .si-icebreaking-request:before {
+   content: "\f1ea";
+ }
+ .si-icebreaking-route-recommendation:before {
+   content: "\f1eb";
+ }
+ .si-icebreakings-archive:before {
+   content: "\f1ec";
+ }
+ .si-icebreakings-docs:before {
+   content: "\f1ed";
+ }
+ .si-icebreakings-list:before {
+   content: "\f1ee";
+ }
+ .si-icebreaking-support:before {
+   content: "\f1ef";
+ }
+ .si-icebreaking-maintenance:before {
+   content: "\f1f0";
+ }
+ .si-safety-meteo:before {
+   content: "\f1f1";
+ }
+ .si-safety-maritime:before {
+   content: "\f1f2";
+ }
+ .si-rescue-forces:before {
+   content: "\f1f3";
+ }
+ .si-safety-maritime-docs:before {
+   content: "\f1f4";
+ }
+ .si-safety-maritime-learning:before {
+   content: "\f1f5";
+ }
+ .si-safety-maritime-support:before {
+   content: "\f1f6";
+ }
+ .si-safety-message:before {
+   content: "\f1f7";
+ }
+ .si-safety-meteo-docs:before {
+   content: "\f1f8";
+ }
+ .si-safety-meteo-learning:before {
+   content: "\f1f9";
+ }
+ .si-safety-meteo-support:before {
+   content: "\f1fa";
+ }
+ .si-safety-route-recommendation:before {
+   content: "\f1fb";
+ }
+ .si-safety-statistics:before {
+   content: "\f1fc";
+ }
+ .si-safety-tracking:before {
+   content: "\f1fd";
+ }
+ .si-safety-tracking-subscription:before {
+   content: "\f1fe";
+ }
+ .si-safety-violation-tracking:before {
+   content: "\f1ff";
+ }
+ .si-safety-equipment:before {
+   content: "\f200";
+ }
+ .si-safety-equipment-docs-settings:before {
+   content: "\f201";
+ }
+ .si-safety-icebreaker:before {
+   content: "\f202";
+ }
+ .si-safety-meteo-workplace:before {
+   content: "\f203";
+ }
+ .si-safety-port:before {
+   content: "\f204";
+ }
+ .si-safety-rescue-ship:before {
+   content: "\f205";
+ }
+ .si-ngo-monitoring:before {
+   content: "\f206";
+ }
+ .si-ngo-navigation-info:before {
+   content: "\f207";
+ }
+ .si-ngo-cartographic:before {
+   content: "\f208";
+ }
+ .si-ngo-events:before {
+   content: "\f209";
+ }
+ .si-ngo-equipment-status:before {
+   content: "\f20a";
+ }
+ .si-sea-level:before {
+   content: "\f20b";
+ }
+ .si-show-02-fill:before {
+   content: "\f20c";
+ }
+ .si-hide-02-fill:before {
+   content: "\f20d";
+ }
+ .si-icebreaking-requests:before {
+   content: "\f20e";
+ }
+ .si-ships-schedule:before {
+   content: "\f20f";
+ }
+ .si-external-data:before {
+   content: "\f210";
+ }
+ .si-disp-atomflot:before {
+   content: "\f211";
+ }
+ .si-rectangle-fill:before {
+   content: "\f212";
+ }
+ .si-nadir-angle:before {
+   content: "\f213";
+ }
+ .si-nadir-angle-fill:before {
+   content: "\f214";
+ }
+ .si-weather-04:before {
+   content: "\f215";
+ }
+ .si-weather-04-fill:before {
+   content: "\f216";
+ }
+ .si-transparency:before {
+   content: "\f217";
+ }
+ .si-transparency-fill:before {
+   content: "\f218";
+ }
+ .si-alarm-clock:before {
+   content: "\f219";
+ }
+ .si-snapshot-of-earth:before {
+   content: "\f21a";
+ }
+ .si-snapshot-of-earth-list:before {
+   content: "\f21b";
+ }
+ .si-snapshot-of-earth-smp:before {
+   content: "\f21c";
+ }
+ .si-satellite-meteo:before {
+   content: "\f21d";
+ }
+ .si-satellite-ice:before {
+   content: "\f21e";
+ }
+ .si-satellite-map:before {
+   content: "\f21f";
+ }
+ .si-star-5:before {
+   content: "\f220";
+ }
+ .si-star-5-fill:before {
+   content: "\f221";
+ }
+ .si-quality-control:before {
+   content: "\f222";
+ }
+ .si-time:before {
+   content: "\f223";
+ }
+ .si-load-xml:before {
+   content: "\f224";
+ }
+ .si-save-xml:before {
+   content: "\f225";
+ }
+ .si-discount:before {
+   content: "\f226";
+ }
+ .si-markup:before {
+   content: "\f227";
+ }
+ .si-service:before {
+   content: "\f228";
+ }
+ .si-date-time:before {
+   content: "\f229";
+ }
+ .si-ngo-external-data:before {
+   content: "\f22a";
+ }
+ .si-microphone:before {
+   content: "\f22b";
+ }
+ .si-reload:before {
+   content: "\f22c";
+ }
+ .si-drag-n-drop:before {
+   content: "\f22d";
+ }
+ .si-drag-n-drop-hor:before {
+   content: "\f22e";
+ }
+ .si-drag-n-drop-vert:before {
+   content: "\f22f";
+ }
+ .si-reload-file:before {
+   content: "\f230";
+ }
+ .si-mu-authorized-person:before {
+   content: "\f231";
+ }
+ .si-mu-chat:before {
+   content: "\f232";
+ }
+ .si-mu-room:before {
+   content: "\f233";
+ }
+ .si-mu-themes:before {
+   content: "\f234";
+ }
+ .si-tree-menu:before {
+   content: "\f235";
+ }
+ .si-show-notation:before {
+   content: "\f236";
+ }
+ .si-arrow-left-fill:before {
+   content: "\f237";
+ }
+ .si-today:before {
+   content: "\f238";
+ }
+ .si-clear:before {
+   content: "\f239";
+ }
+ .si-binocular-fill:before {
+   content: "\f23a";
+ }
+ .si-crane-03-fill:before {
+   content: "\f23b";
+ }
+ .si-draw-hand-fill:before {
+   content: "\f23c";
+ }
+ .si-emergency-situations-stat-fill:before {
+   content: "\f23d";
+ }
+ .si-ice-age-fill:before {
+   content: "\f23e";
+ }
+ .si-iceberg-fill:before {
+   content: "\f23f";
+ }
+ .si-icebergs-fill:before {
+   content: "\f240";
+ }
+ .si-layers-fill:before {
+   content: "\f241";
+ }
+ .si-lifebuoy-fill:before {
+   content: "\f242";
+ }
+ .si-port-card-fill:before {
+   content: "\f243";
+ }
+ .si-recommended-route-fill:before {
+   content: "\f244";
+ }
+ .si-rescue-zone-fill:before {
+   content: "\f245";
+ }
+ .si-ship-container-fill:before {
+   content: "\f246";
+ }
+ .si-ship-position-fill:before {
+   content: "\f247";
+ }
+ .si-weather-temperature-fill:before {
+   content: "\f248";
+ }
+ .si-attached-file:before {
+   content: "\f249";
+ }
+ .si-attached-file-picture:before {
+   content: "\f24a";
+ }
+ .si-file:before {
+   content: "\f24b";
+ }
+ .si-file-picture:before {
+   content: "\f24c";
+ }
+ .si-file-pdf:before {
+   content: "\f24d";
+ }
+ 
+ .si-:before {
+   content: "\f24_";
+ }
+ 

@@ -1,0 +1,494 @@
+.theme-default {
+  --theme-name: 'Базовая тема';
+  /* логотип в левом верхнем углу */
+  --system-logo : url('../assets/images/rosatom_logo_white.svg') left top no-repeat;
+  /* используемые шрифты */
+  --epcs-main-font: Roboto, Arial, sans-serif;
+  --epcs-cond-font: "Roboto Condensed", "Arial Narrow", sans-serif;
+  --epcs-icon-font: smpiconsdemo;
+  --epcs-normal-font-size: 16px; 
+  --epcs-small-font-size: 14px; 
+  --epcs-smallest-font-size: 12px; 
+  /* основные размеры */
+  --base-margin: 8px;
+  --base-border-radius: 8px;
+  --input-icon-size: 24px;
+  --window-padding-min: 8px;
+  --window-padding-sm: 12px;
+  --window-padding-base: 16px;
+  --window-padding-lg: 20px;
+  --window-padding-max: 24px;
+  /* общий фон */
+  --bg-color:  var(--rosatom-dark-blue-color, #003274);
+  --bg-inverse-color:  var(--rosatom-white-color, #FFFFFF);
+  --commom-bg: linear-gradient(180deg, rgba(38, 48, 105, 1) 50px, rgba(0, 50, 116, 0) 300px), fixed url('../images/bg_smp_05.svg') center calc(30% - 100px) no-repeat, #263069;
+  /* Текст */
+  /* На основном фоне */
+  --text-color:  var(--rosatom-white-color, #FFFFFF);
+  --headers-color:  var(--rosatom-white-color, #FFFFFF);
+  /* На инверсном фоне */
+  --text-inverse-color:  var(--rosatom-dark-gray-color, #333333);
+  --headers-inverse-color:  var(--rosatom-dark-blue-color, #003274);
+  /* Ссылки в тексте */
+  /* На основном фоне */
+  --text-link-color:  var(--rosatom-light-blue-color, #6CACE4);
+  --text-link-hover-color:  var(--light-blue-60-color, #a6cdee);
+  /* На инверсном фоне */
+  --text-inverse-link-color:  var(--rosatom-blue-color, #025EA1);
+  --text-inverse-link-hover-color:  var(--blue-60-color, #679ec6);
+  /* Выделение текста цветом */
+  /* Например, положительные и отрицательные значения метрик, рейтингов и тд */
+  --text-highlighting-positive-color: var(--rosatom-azure-color);
+  --text-highlighting-negative-color: var(--rosatom-burgundy-color);
+  --text-highlighting-alarm-color: var(--rosatom-burgundy-color);
+
+  /* Шапка страниц портала */
+  --header-bg-color: transparent;
+  --header-logo-color: var(--rosatom-white-color);
+  --header-name-color: var(--headers-color);
+  --header-icon-color: var(--rosatom-white-color);
+  --header-icon-hover-color: var(--text-link-hover-color);
+  --header-icon-bg-color: transparent;
+  --header-icon-counter-bg-color: var(--rosatom-burgundy-color);
+  /* Выпадающие меню от кнопок в правом вехнем углу */
+  --header-popup-menu-item-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --header-popup-menu-item-text-color: var(--rosatom-dark-gray-color, #333333);
+  --header-popup-menu-item-icon-color: var(--rosatom-azure-color, #259789);
+  --header-popup-menu-item-bg-hover-color: var(--light-blue-20-color, #e1eef9);
+  --header-popup-menu-item-text-hover-color: var(--rosatom-dark-blue-color, #003274);
+  --header-popup-menu-item-icon-hover-color: var(--rosatom-blue-color, #025EA1);
+  --header-popup-menu-item-disabled-color: var(--black-20-color, #d3d2d2);
+
+  /* Верхнее меню с подсистемами */
+  --header-menu-bg-color: linear-gradient(to right, transparent 10%, var(--rosatom-blue-color) 20%, var(--rosatom-blue-color) 80%, transparent 90%);
+  --header-menu-button-bg-color: transparent;
+  --header-menu-button-bg-hover-color: var(--rosatom-dark-blue-color, #003274);
+  --header-menu-button-bg-active-color: var(--rosatom-azure-color, #259789);
+  --header-menu-button-border-color: var(--rosatom-white-color, #FFFFFF);
+  --header-menu-button-border-hover-color: var(--header-menu-button-border-color);
+  --header-menu-button-border-active-color: var(--header-menu-button-border-color);
+  --header-menu-button-icon-color: var(--rosatom-white-color, #FFFFFF);
+  --header-menu-button-icon-disabled-color: var(--blue-60-color, #679ec6);
+  --header-menu-button-text-color: var(--rosatom-white-color, #FFFFFF);
+
+  /* Заголовок текущей страницы */
+  --chapter-bg-color: linear-gradient(to right, var(--rosatom-light-blue-color, #6CACE4) 30%, var(--rosatom-blue-color, #025EA1) 90%);
+  --chapter-color: var(--rosatom-white-color, #FFFFFF);
+  --chapter-icon-color: var(--rosatom-white-color, #FFFFFF);
+
+  /* Рабочая область */
+  --work-area-wrapper-bg-color: var(--white-trans-20-color);
+  --work-area-bg-color: var(--bg-inverse-color);
+  --work-area-text-color: var(--text-inverse-color);
+  --work-area-header-color: var(--headers-inverse-color);
+  /* Рабочая область на инверсном фоне */
+  --work-area-wrapper-inverse-bg-color: transparent;
+  --work-area-inverse-bg-color: var(--white-trans-05-color);
+  --work-area-inverse-text-color: var(--text-color);
+  --work-area-inverse-header-color: var(--headers-color);
+  /* Сплиттер рабочей области */
+  --splitter-bg-color: var(--rosatom-blue-color, #025EA1);
+  --splitter-icon-color: var(--rosatom-light-blue-color, #6CACE4);
+
+  /* Кнопки в тулбаре (справа в заголовке текущего раздела) */
+  --toolbar-button-bg-color: transparent;
+  --toolbar-button-bg-hover-color: var(--rosatom-dark-blue-color, #003274);
+  --toolbar-button-bg-current-color: var(--rosatom-azure-color, #259789);
+  --toolbar-button-bg-current-hover-color: var(--azure-60-color, #a7d5cf);
+  --toolbar-button-border-color: var(--rosatom-white-color, #FFFFFF);
+  --toolbar-button-icon-color: var(--rosatom-white-color, #FFFFFF);
+  --toolbar-button-icon-disabled-color: var(--blue-60-color, #679ec6);
+
+  /* Сайдбар (слева на ГИС-картах) */
+  --sidebar-bg-color: var(--rosatom-blue-color, #025EA1);
+
+  /* Карточки, формы */
+  --card-text-color: var(--rosatom-dark-gray-color, #333333);
+  --card-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --card-separator-color: var(--rosatom-dark-blue-color, #003274);
+  --card-separator-light-color: var(--light-blue-20-color, #e1eef9);
+
+  /* Общие цвета для inputs и элементов форм */
+  /* inputs Normal */
+  --input-text-color: var(--rosatom-dark-gray-color, #333333);
+  --input-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --input-border-color: var(--rosatom-blue-color, #025EA1);
+  --input-icon-color: var(--rosatom-dark-gray-color, #333333);
+  --input-placeholder-color: var(--black-40-color);
+  /* inputs Hover */
+  --input-text-hover-color: var(--rosatom-dark-gray-color, #333333);
+  --input-bg-hover-color: var(--light-blue-20-color, #e1eef9);
+  --input-border-hover-color: var(--rosatom-blue-color, #025EA1);
+  --input-placeholder-hover-color: var(--black-40-color);
+  /* inputs Disabled, Readonly */
+  --input-text-disabled-color: var(--rosatom-blue-color);
+  --input-bg-disabled-color: var(--black-10-color, #e9e8e8);
+  --input-border-disabled-color: var(--black-20-color, #d3d2d2);
+  --input-text-readonly-color: var(--rosatom-blue-color, #025EA1);
+  --input-bg-readonly-color: var(--input-bg-disabled-color);
+  --input-border-readonly-color: var(--input-border-disabled-color);
+
+  /* Радио-кнопки */
+  --radio-color: var(--rosatom-dark-gray-color, #333333);
+  --radio-select-color: var(--rosatom-blue-color, #025EA1);
+  /* Радио-кнопки. Альтернатива - на темном фоне */
+  --radio-alt-color: var(--rosatom-white-color, #FFFFFF);
+  --radio-alt-select-color: var(--rosatom-light-blue-color);
+
+  /* Флажки (чекбоксы) */
+  --checkbox-color: var(--rosatom-dark-gray-color, #333333);
+  --checkbox-select-color: var(--rosatom-blue-color, #025EA1);
+
+  /* Переключатели */
+  --toggle-on-color: var(--rosatom-blue-color);
+  --toggle-off-color: var(--rosatom-white-color);
+  --toggle-track-color: var(--rosatom-blue-color);
+
+  /* Кнопки (обычные), цвета как у всех инпутов */
+  --button-text-color: var(--input-text-color);
+  --button-bg-color: var(--input-bg-color);
+  --button-border-color: var(--input-border-color);
+  --button-text-hover-color: var(--input-text-hover-color);
+  --button-bg-hover-color: var(--input-bg-hover-color);
+  --button-border-hover-color: var(--input-border-hover-color);
+  /* заблокированные кнопки */
+  --button-text-disabled-color: var(--rosatom-dark-gray-color, #333333);
+  --button-bg-disabled-color: var(--input-bg-disabled-color);
+  --button-border-disabled-color: var(--input-border-disabled-color);
+  /* кнопки (обычные, выделенные) */
+  --button-select-text-color: var(--rosatom-white-color, #FFFFFF);
+  --button-select-bg-color: var(--rosatom-light-blue-color, #6CACE4);
+  --button-select-border-color: var(--rosatom-blue-color, #025EA1);
+  --button-select-text-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --button-select-bg-hover-color: var(--rosatom-blue-color, #025EA1);
+  --button-select-border-hover-color: var(--rosatom-blue-color, #025EA1);
+  /* Кнопка с индикацией выбора, например, кнопка-переключатель */
+  --button-active-text-color: var(--button-text-color);
+  --button-active-bg-color: var(--azure-40-color, #a7d5cf);
+  --button-active-border-color: var(--button-border-color);
+  --button-active-text-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --button-active-bg-hover-color: var(--azure-60-color, #7cc0b8);
+  
+  /* Календари */
+  --calendar-text-color: var(--rosatom-dark-gray-color, #333333);
+  --calendar-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --calendar-border-color: var(--rosatom-dark-gray-color, #333333);
+  /* дни недели */
+  --calendar-dow-text-color: var(--rosatom-blue-color, #025EA1);
+  /* текущий месяц */
+  --calendar-date-text-color: var(--rosatom-dark-gray-color, #333333);
+  --calendar-date-bg-color: transparent;
+  --calendar-date-border-color: transparent;
+  --calendar-date-text-hover-color: var(--rosatom-dark-gray-color, #333333);
+  --calendar-date-bg-hover-color: var(--light-blue-20-color, #e1eef9);
+  --calendar-date-border-hover-color: transparent;
+  /* предыдущий и последующий месяц */
+  --calendar-prev-text-color: var(--black-20-color);
+  --calendar-prev-bg-color: transparent;
+  --calendar-prev-text-hover-color: var(--black-40-color);
+  --calendar-prev-bg-hover-color: var(--light-blue-20-color, #e1eef9);
+  /* сегодня */
+  --calendar-today-border-color: var(--rosatom-blue-color, #025EA1);
+  /* выбранная дата */
+  --calendar-select-text-color: var(--rosatom-dark-gray-color, #333333);
+  --calendar-select-bg-color: var(--azure-60-color, #7cc0b8);
+  --calendar-select-text-hover-color: var(--rosatom-dark-gray-color, #333333);
+  --calendar-select-bg-hover-color: var(--light-blue-20-color, #e1eef9);
+  /* дата внутри выбранного периода */
+  --calendar-period-text-color: var(--rosatom-dark-gray-color, #333333);
+  --calendar-period-bg-color: var(--azure-20-color, #d3eae7);
+  --calendar-period-text-hover-color: var(--rosatom-dark-gray-color, #333333);
+  --calendar-period-bg-hover-color: var(--light-blue-20-color, #e1eef9);
+  /* даты, недоступные для выбора */
+  --calendar-disabled-text-color: var(--burgundy-40-color, #e0a6c7);
+  --calendar-disabled-bg-color: transparent;
+  /* циферблат часов */
+  --time-dial-face-bg-color: var(--light-blue-20-color);
+
+  /* Вкладки (Tabs) */
+  --tab-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --tab-bg-inactive-color: var(--light-blue-20-color, #e1eef9);
+  --tab-label-color: var(--rosatom-dark-gray-color, #333333);
+  --tab-label-current-color: var(--rosatom-dark-blue-color, #003274);
+  --tab-icon-color: var(--rosatom-dark-gray-color, #333333);
+  --tab-icon-current-color: var(--rosatom-blue-color, #025EA1);
+  --tab-border-color: var(--input-border-color);
+  /* Альтернатива (для ПБД) */
+  --tab-alt-bg-color: transparent;
+  --tab-alt-bg-inactive-color: var(--black-trans-70-color);
+  --tab-alt-label-color: var(--rosatom-white-color, #FFFFFF);
+  --tab-alt-label-current-color: var(--rosatom-white-color, #FFFFFF);
+  --tab-alt-icon-color: var(--rosatom-dark-gray-color, #333333);
+  --tab-alt-icon-current-color: var(--rosatom-blue-color, #025EA1);
+  --tab-alt-border-color: var(--rosatom-white-color, #FFFFFF);
+  --tab-alt-border-bottom-active-color: #242d64; /* в цвет положки */
+  /* Доп. кнопки для действий над вкладками */
+  --tab-action-icon-color: var(--light-blue-60-color, #a6cdee);
+  --tab-action-bg-color: transparent;
+  --tab-action-icon-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --tab-action-bg-hover-color: var(--blue-60-color);
+  --tab-add-icon-color: var(--light-blue-60-color, #a6cdee);
+  --tab-add-icon-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --tab-alt-action-icon-color: var(--light-blue-60-color, #a6cdee);
+  --tab-alt-action-bg-color: transparent;
+  --tab-alt-action-icon-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --tab-alt-action-bg-hover-color: var(--blue-60-color);
+  --tab-alt-add-icon-color: var(--light-blue-60-color, #a6cdee);
+  --tab-alt-add-icon-hover-color: var(--rosatom-white-color, #FFFFFF);
+
+  /* Подсказка в формах */
+  --help-button-in-form-color: var(--rosatom-light-blue-color, #6CACE4);
+  --help-button-in-form-hover-color: var(--rosatom-blue-color, #025EA1);
+  --required-icon-in-form-color: var(--rosatom-burgundy-color, #B22174);
+
+  /* Тултипы (всплывающие подсказки) */
+  --tooltip-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --tooltip-text-color: var(--text-inverse-color);
+  --tooltip-border-color: var(--rosatom-dark-gray-color, #333333);
+  --tooltip-shadow-color: var(--dark-blue-trans-50-color);
+  --tooltip-arrow-color: var(--rosatom-light-blue-color, #6CACE4);
+  --tooltip-arrow-red-color: var(--burgundy-60-color, #d079ab);
+  --tooltip-arrow-green-color: var(--azure-60-color, #7cc0b8);
+  --tooltip-arrow-white-color: var(--rosatom-white-color, #FFFFFF);
+  --tooltip-font-family:  var(--epcs-main-font);
+  --tooltip-font-size:  var(--epcs-small-font-size);
+
+  /* Модальные диалоги, всплывающие окна */
+  --dialogue-color: var(--rosatom-dark-gray-color, #333333);
+  --dialogue-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --dialogue-border-color: none;
+  --dialogue-shadow:  0 0 10px 5px var(--rosatom-dark-blue-color, #003274);
+  --dialogue-header-color: var(--rosatom-white-color, #FFFFFF);
+  --dialogue-header-bg-color: var(--chapter-bg-color);
+  --dialogue-header-icon-color: var(--text-color);
+  --dialogue-backdrop-color: var(--dark-blue-trans-50-color, rgba(0,50,116,.5));
+
+  /* Для Аккордеона */
+  --accordion-item-text-color: var(--rosatom-dark-gray-color, #333333);
+  --accordion-item-icon-color: var(--rosatom-dark-gray-color, #333333);
+  --accordion-item-bg-color: var(--light-blue-20-color, #e1eef9);
+  --accordion-item-border-color: var(--light-blue-60-color, #a6cdee);
+
+  /* Таблицы */
+  --table-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --table-text-color: var(--rosatom-dark-gray-color, #333333);
+  --table-hor-border-color: var(--black-trans-10-color);
+  --table-th-text-color: var(--table-text-color);
+  --table-th-bg-color: var(--table-bg-color);
+  --table-th-bottom-border-color: var(--rosatom-light-blue-color, #6CACE4);
+  --table-td-text-color: var(--table-text-color);
+  --table-td-bg-color: var(--table-bg-color);
+  --table-td-bg-2n-color: var(--light-blue-trans-20-color);
+  --table-tr-bg-hover-color: var(--rosatom-blue-color, #025EA1);
+  --table-tr-bg-active-color: var(--azure-40-color, #a7d5cf);
+  --table-tr-bg-active-hover-color: var(--rosatom-azure-color, #259789);
+  --table-tr-active-bottom-border-color: var(--azure-20-color);
+  --table-td-text-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --table-flag-border-color: var(--black-10-color, #e9e8e8);
+  --table-td-link-color: var(--text-inverse-link-color);
+  --table-td-link-hover-color: var(--text-inverse-link-hover-color);
+
+  /* Пиктограммы в ячейках таблицы */
+  --table-icon-green-color: var(--rosatom-azure-color, #259789);
+  --table-icon-green-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --table-icon-red-color: var(--rosatom-burgundy-color, #B22174);
+  --table-icon-red-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --table-icon-orange-color: var(--rosatom-orange-color, #EE6C23);
+  --table-icon-orange-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --table-icon-gray-color: var(--black-40-color, #a7a5a5);
+  --table-icon-gray-hover-color: var(--rosatom-white-color, #FFFFFF);
+
+  /* Кнопки в ячейках таблицы */
+  --table-button-color: var(--button-text-color);
+  --table-button-bg-color: var(--button-bg-color);
+  --table-button-border-color: var(--button-border-color, #025EA1);
+
+  /* для деревьев */
+  /* Основное представление */
+  --tree-icon-arrow-color: var(--rosatom-dark-gray-color, #333333);
+  --tree-node-text-color: var(--rosatom-dark-gray-color, #333333);
+  --tree-node-bg-color: transparent;
+  --tree-node-bg-hover-color: var(--light-blue-20-color);
+  --tree-node-marker-color: var(--rosatom-dark-gray-color, #333333);
+  --tree-icon-color: var(--rosatom-blue-color, #025EA1);
+  --tree-icon-hover-color: var(--rosatom-azure-color, #259789);
+  --tree-icon-bg-color: transparent;
+  --tree-icon-added-bg-color: var(--rosatom-azure-color, #259789);
+  /* Альтернативное представление */
+  /* Для страниц ПБД и Анализ обстановки */
+  --tree-alt-icon-arrow-color: var(--rosatom-white-color, #FFFFFF);
+  --tree-alt-node-text-color: var(--rosatom-white-color, #FFFFFF);
+  --tree-alt-node-bg-color: transparent;
+  --tree-alt-node-bg-hover-color: var(--white-trans-20-color);
+  --tree-alt-node-marker-color: var(--rosatom-white-color, #FFFFFF);
+  --tree-alt-icon-color: var(--light-blue-60-color, #a6cdee);
+  --tree-alt-icon-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --tree-alt-icon-bg-color: transparent;
+  --tree-alt-icon-added-bg-color: var(--rosatom-azure-color, #259789);
+
+  /* Для кнопок открытия дополнительных панелей */
+  --edge-panel-open-bg-color: var(--rosatom-dark-blue-color);
+  --edge-panel-open-bg-hover-color: var(--rosatom-light-blue-color);
+  --edge-panel-open-icon-color: var(--rosatom-white-color);
+  --edge-panel-open-border-color: var(--rosatom-white-color);
+  --edge-panel-open-shadow-color: var(--dark-blue-trans-50-color);
+
+  /* Джойстик */
+  --joystick-bg: url('../images/joystick_cross.svg') center center no-repeat, rgba(2, 94, 161, 0.4);
+  --joystick-bg-hover: url('../images/joystick_cross.svg') center center no-repeat, rgba(108, 172, 228, 1);
+  --joystick-icon-bg-color: transparent;
+  --joystick-icon-bg-hover-color: rgba(255, 255, 255, 0.3);
+  --joystick-icon-bg-focus-color: rgba(255, 255, 255, 0.3);
+  --joystick-icon-color: var(--rosatom-white-color, #FFFFFF);
+  --joystick-shadow-color: 0 0 10px 5px rgba(255, 255, 255, 1);
+
+  --edge-panel-bg-color: var(--rosatom-white-color, #FFFFFF);
+  --edge-panel-header-bg-color: linear-gradient(to right, var(--rosatom-light-blue-color, #6CACE4) 30%, var(--rosatom-blue-color, #025EA1) 90%);
+  --edge-panel-header-text-color: var(--rosatom-white-color, #FFFFFF);
+  --edge-panel-shadow-color: 0 0 10px 5px var(--rosatom-dark-blue-color, #003274);
+
+  /* Специальные кнопки в Панели Быстрого Доступа */
+  --qap-button-bg: radial-gradient(circle at 65% 15%, var(--rosatom-light-blue-color), var(--rosatom-dark-blue-color));
+  --qap-button-border-color: #242d64; /* в цвет положки */
+  --qap-button-icon-color: var(--light-blue-40-color);
+  --qap-button-icon-label-color: var(--rosatom-white-color);
+  --qap-button-icon-hover-label-color: var(--yellow-60-color);
+  --qap-button-hover-bg: radial-gradient(circle at 60% 30%, var(--rosatom-light-blue-color), var(--rosatom-dark-blue-color));
+  --qap-button-border-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --qap-button-icon-hover-color: var(--yellow-60-color);
+  --qap-button-hover-shadow: 0 0 32px rgb(255 255 255 / 50%);
+  --qap-widget-header-color: var(--rosatom-white-color, #FFFFFF);
+  --qap-widget-border-color: var(--rosatom-white-color, #FFFFFF);
+  --qap-open-panel-button-icon-color: var(--rosatom-white-color, #FFFFFF);
+  --qap-open-panel-button-icon-hover-color: var(--light-blue-60-color, #a6cdee);
+  --qap-open-panel-button-bg-color: transparent;
+  --qap-open-panel-button-bg-hover-color: var(--white-trans-20-color);
+  --qap-tree-highlight-bg-color: var(--yellow-60-color, #f6c966);
+  --qap-tree-highlight-text-color: var(--rosatom-dark-gray-color, #333333);
+
+  /* Для первой страницы портала */
+  --home-values-text-color: var(--text-color);
+  --home-values-text-hover-color: var(--rosatom-light-blue-color, #6CACE4);
+  --home-values-bg-color: var(--rosatom-dark-blue-color, #003274);
+  --home-values-border-color: var(--rosatom-light-blue-color, #6CACE4);
+  --home-values-icon-color: var(--text-color);
+  --home-values-icon-bg-color: var(--white-trans-40-color);
+  --home-values-icon-border-color: var(--rosatom-dark-blue-color, #003274);
+  --home-values-icon-hover-color: var(--rosatom-dark-blue-color, #003274);
+  --home-values-icon-bg-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --home-values-icon-border-hover-color: var(--rosatom-light-blue-color, #6CACE4);
+  --news-color: var(--rosatom-dark-blue-color, #003274);
+  --news-bg-color: var(--white-trans-40-color);
+
+  /* Для "нулевой" страницы (показывается для незарегистрированных пользователей) */
+  --zero-page-bg-color: #263069;
+  --zero-page-item-bg-color: transparent;
+  --zero-page-item-border-color: var(--rosatom-light-blue-color);
+  --zero-page-item-header-color: var(--rosatom-light-blue-color);
+  --zero-page-item-header-hover-color: var(--rosatom-white-color);
+  --zero-page-item-big-button-bg-color: var(--white-trans-40-color);
+  --zero-page-item-big-button-icon-color: var(--rosatom-white-color);
+  --zero-page-item-big-button-border-color: var(--rosatom-dark-blue-color);
+  --zero-page-item-big-button-bg-hover-color: var(--rosatom-white-color);
+  --zero-page-item-big-button-icon-hover-color: var(--rosatom-dark-blue-color);
+  --zero-page-item-big-button-border-hover-color: var(--rosatom-blue-color);
+  --zero-page-nav-button-bg-color: var(--white-trans-05-color);
+  --zero-page-nav-button-text-color: var(--rosatom-light-blue-color);
+  --zero-page-nav-button-border-color: transparent;
+  --zero-page-nav-button-bg-hover-color: var(--white-trans-20-color);
+  --zero-page-nav-button-text-hover-color: var(--rosatom-white-color);
+  --zero-page-nav-button-border-hover-color: var(--white-trans-20-color);
+
+  /* Для первой страницы ценности (с плашками) */
+  --value-home-bg-color: transparent;
+  --value-home-plate-bg-color: var(--white-trans-05-color);
+  --value-home-plate-hover-bg-color: var(--white-trans-20-color);
+  --value-home-icon-color: var(--rosatom-light-blue-color, #6CACE4);
+  --value-home-icon-hover-color: var(--rosatom-white-color, #FFFFFF);
+  --value-home-icon-lock-color: var(--rosatom-light-blue-color, #6CACE4);
+  --value-home-title-color: var(--text-link-color);
+  --value-home-title-hover-color: var(--text-link-hover-color);
+
+  /* Для многопользрвательского кабинета (MultiUser) */
+  --mu-text-color: var(--text-color);
+  --mu-header-color: var(--text-color);
+  --mu-border-color: var(--text-color);
+  --mu-block-bg-color: var(--white-trans-20-color);
+  --mu-empty-shadow-color: var(--white-trans-20-color);
+  --mu-empty-button-bg-color: transparent;
+  --mu-empty-button-text-color: var(--text-color);
+  --mu-empty-button-icon-color: var(--text-color);
+  --mu-empty-button-border-color: var(--text-color);
+  --mu-separator-color: var(--rosatom-light-blue-color, #6CACE4);
+  --mu-plate-bg-color: transparent;
+  --mu-plate-text-color: var(--text-color);
+  --mu-plate-text-hover-color: var(--rosatom-light-blue-color, #6CACE4);
+  --mu-plate-icon-color: var(--rosatom-light-blue-color, #6CACE4);
+  --mu-plate-icon-hover-color: var(--text-color);
+  --mu-plate-border-color: var(--rosatom-light-blue-color, #6CACE4);
+  --mu-radio-color: var(--radio-alt-color);
+  /* светофор */
+  --mu-color-icon-red: var(--rosatom-burgundy-color);
+  --mu-color-icon-yellow: var(--rosatom-yellow-color);
+  --mu-color-icon-green: var(--rosatom-azure-color);
+  --mu-color-icon-icon-color: var(--rosatom-white-color);
+  /* чат */
+  --mu-user-online-color: var(--rosatom-azure-color);
+  --mu-user-offline-color: var(--rosatom-yellow-color);
+
+  /* для степпера */
+  --stepper-dot-color: var(--rosatom-blue-color, #025EA1);
+  --stepper-tab-label-color: var(--rosatom-gray-color);
+  --stepper-tab-label-done-color: var(--rosatom-blue-color, #025EA1);
+  --stepper-line-color: var(--light-blue-40-color);
+
+  /* Gantt */
+  --gant-bg-color: var(--rosatom-white-color);
+  --gant-text-color: var(--rosatom-dark-gray-color);
+  --gant-dates-text-color: var(--rosatom-dark-gray-color);
+  --gant-bar-bg-color: var(--light-blue-20-color);
+  --gant-bar-border-color: var(--rosatom-blue-color);
+  --gant-bar-ygrid-color: var(--blue-60-color);
+  --gant-bar-xgrid-color: var(--rosatom-blue-color);
+  --gant-bar-green-bg-color: var(--azure-60-color);
+  --gant-bar-green-border-color: var(--rosatom-azure-color);
+  --gant-today-line-color: var(--rosatom-blue-color);
+  --gant-mask-color: var(--rosatom-dark-blue-color);
+
+/* Для ГИС-карт */
+  --gis-sidebar-bg-color: var(--rosatom-blue-color);
+  
+/* Для карточек, вызываемых с ГИС */
+  --card-gis-bg-color: var(--rosatom-white-color);
+  --card-gis-text-color: var(--rosatom-dark-gray-color);
+  --card-gis-border-color: var(--rosatom-dark-gray-color);
+  --card-gis-title-color: var(--rosatom-blue-color);
+  --card-gis-status-line-bg-color: var(--light-blue-20-color);
+
+/* Для админки */
+  --adm-plates-block-bg-color: var(--white-trans-05-color);
+  --adm-plate-border-color: var(--rosatom-blue-color);
+  --adm-plate-text-color: var(--rosatom-light-blue-color, #6CACE4);
+  --adm-plate-text-hover-color: var(--rosatom-blue-color);
+  --adm-plate-icon-color: var(--rosatom-blue-color);
+  --adm-plate-icon-hover-color: var(--rosatom-light-blue-color, #6CACE4);
+
+/* Для левого меню реестров */
+  --registry-list-bg-color: var(--rosatom-white-color);
+  --registry-list-text-color: var(--rosatom-dark-gray-color);
+  --registry-list-icon-color: var(--rosatom-blue-color, #025EA1);
+  --registry-list-bg-hover-color: var(--light-blue-20-color, #e1eef9);
+  --registry-list-text-hover-color: var(--rosatom-dark-gray-color);
+  --registry-list-icon-hover-color: var(--rosatom-blue-color, #025EA1);
+  --registry-list-active-bg-color: var(--azure-40-color, #a7d5cf);
+  --registry-list-active-text-color: var(--rosatom-dark-gray-color);
+  --registry-list-active-icon-color: var(--rosatom-dark-gray-color);
+  --registry-list-active-bg-hover-color: var(--rosatom-azure-color, #259789);
+  --registry-list-active-text-hover-color: var(--rosatom-white-color);
+  --registry-list-active-icon-hover-color: var(--rosatom-white-color);
+
+/* Иконки в круге (в списках) */
+  --avatar-icon-color: var(--rosatom-white-color);
+  --avatar-bg-color: var(--rosatom-blue-color, #025EA1);
+
+}

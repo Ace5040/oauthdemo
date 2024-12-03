@@ -1,0 +1,27 @@
+/* quasar overrides */
+@import './quasar-overrides-dialogue.css';
+@import './quasar-overrides-card.css';
+@import './quasar-overrides-buttons.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --header-height: 52px;
+  --system-logo : url('../assets/images/rosatom_logo_white.svg') left top no-repeat;
+  --system-logo-text: url('../assets/images/rosatom_logo_text.svg') left top no-repeat;
+}
+
+#app {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+}

@@ -1,0 +1,23 @@
+/* Стили для карточек */
+
+.q-bar {
+  color: var(--dialogue-header-color);
+  background: var(--dialogue-header-bg-color);
+}
+.q-card .q-bar .q-btn {
+  height: 24px;
+  margin: 0;
+  color: var(--dialogue-header-icon-color);
+  background-color: transparent;
+  border: none;
+}
+.q-card__section {
+color: var(--dialogue-color);
+background-color: var(--dialogue-bg-color);
+}
+.q-card__actions {
+background-color: var(--dialogue-bg-color);
+}
+.q-card__actions .q-btn {
+min-height: 32px;
+}

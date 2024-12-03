@@ -1,0 +1,37 @@
+/* Стили для диалогов */
+
+/* Затемнение фона модального диалога */
+.q-dialog__backdrop {
+  z-index: -1;
+  pointer-events: all;
+  outline: 0;
+  background: var(--dialogue-backdrop-color);
+}
+
+.q-card.q-dialog-plugin {
+  border-radius: 8px;
+  box-shadow: none;
+}
+.q-bar {
+  color: var(--dialogue-header-color);
+  background: var(--dialogue-header-bg-color);
+}
+.q-card .q-bar .q-btn {
+  height: 24px;
+  margin: 0;
+  color: var(--dialogue-header-icon-color);
+  background-color: transparent;
+  border: none;
+}
+.q-dialog .q-card__section {
+color: var(--dialogue-color);
+background-color: var(--dialogue-bg-color);
+}
+.q-card__actions .q-btn {
+  min-height: 32px;
+}
+.q-input-label {
+display: inline-flex;
+align-items: center;
+}
+

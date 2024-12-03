@@ -1,0 +1,108 @@
+/* Стили для кнопок */
+
+/* Базовые кнопки */
+/* Используются в диалогах, формах */
+.q-btn {
+  position: relative;
+  height: 32px;
+  min-height: 32px;
+  color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  border: 1px solid var(--button-border-color);
+  border-radius: 8px;
+  font-size: var(--epcs-normal-font-size);
+  line-height: 15px;
+  text-transform: none;
+}
+.q-btn__content {
+  margin: -8px auto;
+}
+.q-btn::before {
+  box-shadow: none;
+}
+.q-btn:hover {
+  color: var(--button-text-hover-color);
+  background-color: var(--button-bg-hover-color);
+  border: 1px solid var(--button-border-color);
+}
+/* Выделенная кнопка (select) */
+.q-btn.select {
+  color: var(--button-select-text-color);
+  background-color: var(--button-select-bg-color);
+  border: none;
+}
+.q-btn:hover.select {
+  color: var(--button-select-text-hover-color);
+  background-color: var(--button-select-bg-hover-color);
+  border: none;
+}
+.q-btn[disabled],
+.q-btn[disabled]:hover,
+.q-btn.select.disabled,
+.q-btn.select.disabled:hover {
+  color: var(--button-text-disabled-color);
+  background-color: var(--button-bg-disabled-color);
+  border: 1px solid var(--button-border-disabled-color);
+  opacity: 1;
+}
+.q-btn[aria-disabled=true],
+.q-btn .non-selectable,
+.q-btn>.disabled {
+  color: var(--button-text-disabled-color);
+  background-color: var(--button-bg-disabled-color);
+  border: 1px solid var(--button-border-disabled-color);
+}
+
+/* Квадратная кнопка, только иконка */
+.square-button-icon-only {
+  width: 32px;
+  height: 32px;
+  min-height: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 2px;
+  text-align: center;
+  line-height: 32px;
+}
+.form-button-icon {
+  font-family: 'smpiconsdemo';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  color: var(--button-text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.circle-info-icon {
+  font-family: 'smpiconsdemo';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  padding: 2px;
+  border-radius: 50%;
+  color: var(--button-select-text-color);
+  background-color: var(--button-select-bg-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-green { color: var(--table-icon-green-color); }
+.q-btn:hover .icon-green { color: var(--azure-60-color); }
+.icon-red { color: var(--table-icon-red-color); }
+.q-btn:hover .icon-red { color: var(--burgundy-60-color); }
+.icon-orange { color: var(--table-icon-orange-color); }
+.q-btn:hover .icon-orange { color: var(--orange-60-color); }
+.icon-gray { color: var(--table-icon-gray-color); }
+.q-btn:hover .icon-gray { color: var(--black-20-color); }
+
+/* Календарь, ячейки дат, кнопки управления */
+.q-date__calendar-item .q-btn, .q-date__navigation .q-btn {
+background-color: transparent;
+border: none;
+}
+
+.q-date__range:before, .q-date__range-from:before, .q-date__range-to:before {
+opacity: 0.4;
+}
