@@ -1,3 +1,5 @@
-# DEMO
+# OAuth Demo
 
-Oauth demo
+1. npm i
+2. edit .env file
+3. npm run dev
